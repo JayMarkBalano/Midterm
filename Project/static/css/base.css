@@ -1,8 +1,20 @@
-h1 {
-    color: #4ac1f7;
+header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    display: flex;
+    padding: 2rem;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-.mylogo{
-    height: 300px;
-    width; auto;
 
+header a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 2rem;
+}
+
+header a:hover {
+    color: #333;
 }
